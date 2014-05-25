@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF273F7D1931C39E00D3F8D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF273F7C1931C39E00D3F8D4 /* Foundation.framework */; };
+		EF273F7F1931C39E00D3F8D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF273F7E1931C39E00D3F8D4 /* CoreGraphics.framework */; };
+		EF273F811931C39E00D3F8D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF273F801931C39E00D3F8D4 /* UIKit.framework */; };
+		EF273F871931C39E00D3F8D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF273F851931C39E00D3F8D4 /* InfoPlist.strings */; };
+		EF273F891931C39E00D3F8D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF273F881931C39E00D3F8D4 /* main.m */; };
+		EF273F8D1931C39E00D3F8D4 /* LifeTimeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF273F8C1931C39E00D3F8D4 /* LifeTimeAppDelegate.m */; };
+		EF273F901931C39E00D3F8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF273F8E1931C39E00D3F8D4 /* Main.storyboard */; };
+		EF273F931931C39F00D3F8D4 /* LifeTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF273F921931C39F00D3F8D4 /* LifeTimeViewController.m */; };
+		EF273F951931C39F00D3F8D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF273F941931C39F00D3F8D4 /* Images.xcassets */; };
+		EF273F9C1931C39F00D3F8D4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF273F9B1931C39F00D3F8D4 /* XCTest.framework */; };
+		EF273F9D1931C39F00D3F8D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF273F7C1931C39E00D3F8D4 /* Foundation.framework */; };
+		EF273F9E1931C39F00D3F8D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF273F801931C39E00D3F8D4 /* UIKit.framework */; };
+		EF273FA61931C39F00D3F8D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF273FA41931C39F00D3F8D4 /* InfoPlist.strings */; };
+		EF273FA81931C39F00D3F8D4 /* LifeTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF273FA71931C39F00D3F8D4 /* LifeTimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF273F9F1931C39F00D3F8D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF273F711931C39E00D3F8D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF273F781931C39E00D3F8D4;
+			remoteInfo = LifeTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF273F791931C39E00D3F8D4 /* LifeTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF273F7C1931C39E00D3F8D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EF273F7E1931C39E00D3F8D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EF273F801931C39E00D3F8D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EF273F841931C39E00D3F8D4 /* LifeTime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeTime-Info.plist"; sourceTree = "<group>"; };
+		EF273F861931C39E00D3F8D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF273F881931C39E00D3F8D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF273F8A1931C39E00D3F8D4 /* LifeTime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LifeTime-Prefix.pch"; sourceTree = "<group>"; };
+		EF273F8B1931C39E00D3F8D4 /* LifeTimeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeTimeAppDelegate.h; sourceTree = "<group>"; };
+		EF273F8C1931C39E00D3F8D4 /* LifeTimeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeTimeAppDelegate.m; sourceTree = "<group>"; };
+		EF273F8F1931C39E00D3F8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF273F911931C39E00D3F8D4 /* LifeTimeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LifeTimeViewController.h; sourceTree = "<group>"; };
+		EF273F921931C39F00D3F8D4 /* LifeTimeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeTimeViewController.m; sourceTree = "<group>"; };
+		EF273F941931C39F00D3F8D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF273F9A1931C39F00D3F8D4 /* LifeTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF273F9B1931C39F00D3F8D4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EF273FA31931C39F00D3F8D4 /* LifeTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LifeTimeTests-Info.plist"; sourceTree = "<group>"; };
+		EF273FA51931C39F00D3F8D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EF273FA71931C39F00D3F8D4 /* LifeTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LifeTimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF273F761931C39E00D3F8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF273F7F1931C39E00D3F8D4 /* CoreGraphics.framework in Frameworks */,
+				EF273F811931C39E00D3F8D4 /* UIKit.framework in Frameworks */,
+				EF273F7D1931C39E00D3F8D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF273F971931C39F00D3F8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF273F9C1931C39F00D3F8D4 /* XCTest.framework in Frameworks */,
+				EF273F9E1931C39F00D3F8D4 /* UIKit.framework in Frameworks */,
+				EF273F9D1931C39F00D3F8D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF273F701931C39E00D3F8D4 = {
+			isa = PBXGroup;
+			children = (
+				EF273F821931C39E00D3F8D4 /* LifeTime */,
+				EF273FA11931C39F00D3F8D4 /* LifeTimeTests */,
+				EF273F7B1931C39E00D3F8D4 /* Frameworks */,
+				EF273F7A1931C39E00D3F8D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF273F7A1931C39E00D3F8D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF273F791931C39E00D3F8D4 /* LifeTime.app */,
+				EF273F9A1931C39F00D3F8D4 /* LifeTimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF273F7B1931C39E00D3F8D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF273F7C1931C39E00D3F8D4 /* Foundation.framework */,
+				EF273F7E1931C39E00D3F8D4 /* CoreGraphics.framework */,
+				EF273F801931C39E00D3F8D4 /* UIKit.framework */,
+				EF273F9B1931C39F00D3F8D4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF273F821931C39E00D3F8D4 /* LifeTime */ = {
+			isa = PBXGroup;
+			children = (
+				EF273F8B1931C39E00D3F8D4 /* LifeTimeAppDelegate.h */,
+				EF273F8C1931C39E00D3F8D4 /* LifeTimeAppDelegate.m */,
+				EF273F8E1931C39E00D3F8D4 /* Main.storyboard */,
+				EF273F911931C39E00D3F8D4 /* LifeTimeViewController.h */,
+				EF273F921931C39F00D3F8D4 /* LifeTimeViewController.m */,
+				EF273F941931C39F00D3F8D4 /* Images.xcassets */,
+				EF273F831931C39E00D3F8D4 /* Supporting Files */,
+			);
+			path = LifeTime;
+			sourceTree = "<group>";
+		};
+		EF273F831931C39E00D3F8D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF273F841931C39E00D3F8D4 /* LifeTime-Info.plist */,
+				EF273F851931C39E00D3F8D4 /* InfoPlist.strings */,
+				EF273F881931C39E00D3F8D4 /* main.m */,
+				EF273F8A1931C39E00D3F8D4 /* LifeTime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF273FA11931C39F00D3F8D4 /* LifeTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF273FA71931C39F00D3F8D4 /* LifeTimeTests.m */,
+				EF273FA21931C39F00D3F8D4 /* Supporting Files */,
+			);
+			path = LifeTimeTests;
+			sourceTree = "<group>";
+		};
+		EF273FA21931C39F00D3F8D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF273FA31931C39F00D3F8D4 /* LifeTimeTests-Info.plist */,
+				EF273FA41931C39F00D3F8D4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF273F781931C39E00D3F8D4 /* LifeTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF273FAB1931C39F00D3F8D4 /* Build configuration list for PBXNativeTarget "LifeTime" */;
+			buildPhases = (
+				EF273F751931C39E00D3F8D4 /* Sources */,
+				EF273F761931C39E00D3F8D4 /* Frameworks */,
+				EF273F771931C39E00D3F8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LifeTime;
+			productName = LifeTime;
+			productReference = EF273F791931C39E00D3F8D4 /* LifeTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF273F991931C39F00D3F8D4 /* LifeTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF273FAE1931C39F00D3F8D4 /* Build configuration list for PBXNativeTarget "LifeTimeTests" */;
+			buildPhases = (
+				EF273F961931C39F00D3F8D4 /* Sources */,
+				EF273F971931C39F00D3F8D4 /* Frameworks */,
+				EF273F981931C39F00D3F8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF273FA01931C39F00D3F8D4 /* PBXTargetDependency */,
+			);
+			name = LifeTimeTests;
+			productName = LifeTimeTests;
+			productReference = EF273F9A1931C39F00D3F8D4 /* LifeTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF273F711931C39E00D3F8D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LifeTime;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					EF273F991931C39F00D3F8D4 = {
+						TestTargetID = EF273F781931C39E00D3F8D4;
+					};
+				};
+			};
+			buildConfigurationList = EF273F741931C39E00D3F8D4 /* Build configuration list for PBXProject "LifeTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF273F701931C39E00D3F8D4;
+			productRefGroup = EF273F7A1931C39E00D3F8D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF273F781931C39E00D3F8D4 /* LifeTime */,
+				EF273F991931C39F00D3F8D4 /* LifeTimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF273F771931C39E00D3F8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF273F951931C39F00D3F8D4 /* Images.xcassets in Resources */,
+				EF273F871931C39E00D3F8D4 /* InfoPlist.strings in Resources */,
+				EF273F901931C39E00D3F8D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF273F981931C39F00D3F8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF273FA61931C39F00D3F8D4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF273F751931C39E00D3F8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF273F931931C39F00D3F8D4 /* LifeTimeViewController.m in Sources */,
+				EF273F891931C39E00D3F8D4 /* main.m in Sources */,
+				EF273F8D1931C39E00D3F8D4 /* LifeTimeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF273F961931C39F00D3F8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF273FA81931C39F00D3F8D4 /* LifeTimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF273FA01931C39F00D3F8D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF273F781931C39E00D3F8D4 /* LifeTime */;
+			targetProxy = EF273F9F1931C39F00D3F8D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF273F851931C39E00D3F8D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF273F861931C39E00D3F8D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EF273F8E1931C39E00D3F8D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF273F8F1931C39E00D3F8D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF273FA41931C39F00D3F8D4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF273FA51931C39F00D3F8D4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF273FA91931C39F00D3F8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF273FAA1931C39F00D3F8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF273FAC1931C39F00D3F8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeTime/LifeTime-Prefix.pch";
+				INFOPLIST_FILE = "LifeTime/LifeTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EF273FAD1931C39F00D3F8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeTime/LifeTime-Prefix.pch";
+				INFOPLIST_FILE = "LifeTime/LifeTime-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EF273FAF1931C39F00D3F8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LifeTime.app/LifeTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeTime/LifeTime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LifeTimeTests/LifeTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EF273FB01931C39F00D3F8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LifeTime.app/LifeTime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LifeTime/LifeTime-Prefix.pch";
+				INFOPLIST_FILE = "LifeTimeTests/LifeTimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF273F741931C39E00D3F8D4 /* Build configuration list for PBXProject "LifeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF273FA91931C39F00D3F8D4 /* Debug */,
+				EF273FAA1931C39F00D3F8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF273FAB1931C39F00D3F8D4 /* Build configuration list for PBXNativeTarget "LifeTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF273FAC1931C39F00D3F8D4 /* Debug */,
+				EF273FAD1931C39F00D3F8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF273FAE1931C39F00D3F8D4 /* Build configuration list for PBXNativeTarget "LifeTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF273FAF1931C39F00D3F8D4 /* Debug */,
+				EF273FB01931C39F00D3F8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF273F711931C39E00D3F8D4 /* Project object */;
+}
